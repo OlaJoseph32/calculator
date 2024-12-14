@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="Calculator">
+            <div class="div">
+                <input type="" placeholder="0" id="input"> <br> <br> <br>
+                <div class="buttons">
+                    <button onclick="reset()">AC</button>
+                    <button onclick="root()">√</button>
+                    <button onclick="raise()">^</button>
+                    <button class="yellow" onclick="divide()">⁄</button>
+                    <button class="afoma" onclick="seven()">7</button>
+                    <button class="afoma" onclick="eight()">8</button>
+                    <button class="afoma" onclick="nine()">9</button>
+                    <button class="yellow" onclick="multiply()">X</button>
+                    <button class="damian" onclick="four()">4</button>
+                    <button class="damian" onclick="five()">5</button>
+                    <button class="damian" onclick="six()">6</button>
+                    <button class="yellow" onclick="minus()">-</button>
+                    <button class="onu" onclick="one()">1</button>
+                    <button class="onu" onclick="two()">2</button>
+                    <button class="onu" onclick="three()">3</button>
+                    <button class="yellow" onclick="add()">+</button>
+                    <!-- <button onclick="del()">Del</button> -->
+                </div>
+                <div class="last-set">
+                    <button class="jane" id="jane" onclick="zero()">0</button>
+                    <button class="damian" id="damian" onclick="dot()">.</button>
+                    <button class="yellow" id="equalTo" onclick="equal()">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
