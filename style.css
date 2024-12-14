@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+html body{
     /* background-color: rgb(7, 7, 7); */
     background: linear-gradient(gray, gray, black);
 
